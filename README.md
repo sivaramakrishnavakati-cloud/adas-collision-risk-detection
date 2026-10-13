@@ -1,3 +1,14 @@
+# ADAS Computer Vision & Collision Risk Estimation
+
+🚀 **Live Demo:** [Launch ADAS App](https://adas-collision-risk-detection.streamlit.app)
+
+💻 **Source Code:** [View on GitHub](https://github.com/sivaramakrishnavakati-cloud/adas-collision-risk-detection)
+
+An AI-powered computer vision prototype that detects and tracks vehicles in driving videos and analyzes experimental bounding-box growth indicators.
+
+> **Disclaimer:** This is a research prototype, not a validated collision-prediction or safety-certified ADAS system.
+
+
 # ADAS Computer Vision and Collision Risk Indicator
 
 ## Overview
