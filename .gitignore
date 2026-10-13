@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated outputs
+runs/
+outputs/*.mp4
+outputs/*.avi
+
+# Local data and temporary files
+*.log
+.DS_Store
+Thumbs.db
+# Large model and input video
+yolo26n.pt
+driving.mp4
+
+# Backup script
+collision_risk_backup.py
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated outputs
+runs/
+outputs/*.mp4
+outputs/*.avi
+
+# Local data and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Large model and input video
+yolo26n.pt
+driving.mp4
+
+# Backup script
+collision_risk_backup.py
+bus.jpg

@@ -1,0 +1,43 @@
+ADAS PROJECT - EVALUATION REPORT
+========================================
+Total observations: 2696
+Unique tracking IDs: 106
+Unique video frames: 756
+Duplicate rows: 0
+
+INDICATOR STATUS COUNTS
+----------------------------------------
+indicator_status
+POSSIBLE APPROACH    1378
+NO STRONG GROWTH      730
+OBSERVING             588
+
+VEHICLE CLASS SUMMARY
+----------------------------------------
+indicator_status  NO STRONG GROWTH  OBSERVING  POSSIBLE APPROACH
+vehicle_class                                                   
+bus                             57         20                 31
+car                            580        413               1048
+motorcycle                       1         28                  8
+truck                           92        127                291
+
+GROWTH RATIO STATISTICS
+----------------------------------------
+                   count  mean  median    max
+indicator_status                             
+NO STRONG GROWTH     730  1.01    1.04   1.25
+OBSERVING              0   NaN     NaN    NaN
+POSSIBLE APPROACH   1378  3.24    2.53  17.21
+
+DATA QUALITY CHECK
+----------------------------------------
+Missing values:
+frame                  0
+track_id               0
+vehicle_class          0
+confidence             0
+bbox_area              0
+area_growth_ratio    588
+indicator_status       0
+
+LIMITATION: Bounding-box growth is an experimental image-based indicator. It is not a validated collision prediction or calibrated time-to-collision.
