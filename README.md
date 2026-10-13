@@ -83,3 +83,19 @@ The evaluation script generates a report containing:
 - Data quality checks.
 
 See [`outputs/evaluation_report.txt`](outputs/evaluation_report.txt) for the detailed report.
+
+---
+
+## Installation and Usage
+
+### Prerequisites
+
+- Python 3.10 or a compatible version
+- Git
+- A short driving video for testing
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/sivaramakrishnavakati-cloud/adas-collision-risk-detection.git
+cd adas-collision-risk-detection
