@@ -44,3 +44,31 @@ adas-collision-risk-detection/
     ├── evaluation_report.txt
     ├── indicator_status_chart.png
     └── vehicle_class_chart.png
+```
+
+## Results and Visualizations
+
+The project generates visual reports to help analyze object tracking and the experimental approach indicator.
+
+### Approach Indicator Status
+
+This chart summarizes the number of observations assigned to each indicator status.
+
+![Approach indicator status chart](outputs/indicator_status_chart.png)
+
+### Vehicle Class Analysis
+
+This chart shows the distribution of indicator statuses across detected vehicle classes.
+
+![Vehicle class analysis chart](outputs/vehicle_class_chart.png)
+
+### Evaluation Summary
+
+The evaluation script generates a report containing:
+- Total recorded observations.
+- Number of unique tracked object IDs.
+- Vehicle class distribution.
+- Indicator status distribution.
+- Data quality checks.
+
+See [`outputs/evaluation_report.txt`](outputs/evaluation_report.txt) for the detailed report.
