@@ -4,3 +4,4 @@ streamlit==1.65.0
 pandas==3.0.6
 matplotlib
 imageio-ffmpeg
+lap
