@@ -63,13 +63,6 @@ if uploaded_video is None:
     st.info("Upload a video to begin the analysis.")
     st.stop()
 
-if not MODEL_PATH.exists():
-    st.error(
-        f"Model file not found: {MODEL_PATH}. "
-        "Place yolo26n.pt in the project folder."
-    )
-    st.stop()
-
 st.video(uploaded_video.getvalue())
 
 process_video = st.button(
