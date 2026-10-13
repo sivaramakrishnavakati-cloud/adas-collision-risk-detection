@@ -47,8 +47,8 @@ VEHICLE_CLASSES = {"car", "truck", "bus", "motorcycle"}
 
 @st.cache_resource
 def load_model():
-    """Load YOLO once and reuse it across Streamlit reruns."""
-    return YOLO(str(MODEL_PATH))
+    """Download and cache the YOLO model for the app."""
+    return YOLO("yolo26n.pt")
 
 
 # --------------------------------------------------
